@@ -14,7 +14,7 @@ require_once __DIR__ . '/../../src/config/database.php';
     WHERE v.date_vente >= DATE_SUB(NOW(), INTERVAL 1 YEAR)
     GROUP BY mois
     ORDER BY mois ASC
-";
+.";
 
  $stmt = $pdo->query($sql);
  $results = $stmt->fetchAll();

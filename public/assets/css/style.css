@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     /* ── Image de fond globale ── */
-    background-color: #f0f4fb; /* fallback */
+    background-color: #8a919e;
+    /* fallback */
     background-image: url('../images/P.jpg');
     background-position: center;
     background-size: cover;
@@ -19,5 +20,5 @@ body {
 }
 
 .content {
-    flex: 1;
+    flex: 2;
 }
